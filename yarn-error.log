@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\vasanth\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev babel-cli babel-preset-cli
+
+PATH: 
+  C:\Users\vasanth\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\Java\jdk1.7.0_02\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Python27;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\PostgreSQL\9.6\bin;C:\Program Files\PostgreSQL\9.6\lib;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Ruby24-x64\bin;C:\Program Files\mongoDB\bin;C:\Users\vasanth\AppData\Local\atom\bin;C:\Program Files\Heroku\bin;C:\Users\vasanth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vasanth\AppData\Roaming\npm
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  10.13.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "vasanth-expressapp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {},
+    "license": "MIT",
+    "scripts": {
+      "start": "node src/index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-preset-cli: Not found
+      at Request.params.callback [as _callback] (C:\Users\vasanth\AppData\Roaming\npm\node_modules\yarn\lib\util\request-manager.js:313:18)
+      at Request.self.callback (C:\Users\vasanth\AppData\Roaming\npm\node_modules\yarn\node_modules\request\request.js:186:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Users\vasanth\AppData\Roaming\npm\node_modules\yarn\node_modules\request\request.js:1081:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Users\vasanth\AppData\Roaming\npm\node_modules\yarn\node_modules\request\request.js:1001:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
